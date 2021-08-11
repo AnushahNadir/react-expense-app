@@ -6,8 +6,6 @@ export const AddTransactionHistory = () => {
 
     const { transactions } = useContext(GlobalContext);
 
-
-
     return(
         <div>
             <h3>Transaction History</h3>
@@ -15,7 +13,9 @@ export const AddTransactionHistory = () => {
                 {transactions.map(transaction =>(
                 <Transaction key={transaction.id} transaction = {transaction}/>
 
-                ))}
+                )
+                )
+                }
             </ul>
         </div>
     )

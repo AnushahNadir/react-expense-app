@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { AccountSummary } from './components/AccountSummarty';
+import { AccountSummary } from './components/AccountSummary';
 import { AddTransaction } from './components/AddTransaction';
 import { AddTransactionHistory } from './components/AddTransactionHistory';
 import { Balance } from './components/Balance';
