@@ -5,6 +5,7 @@ import { AddTransaction } from './components/AddTransaction';
 import { AddTransactionHistory } from './components/AddTransactionHistory';
 import { Balance } from './components/Balance';
 import { Header } from './components/Header';
+import { GlobalContext } from './context/GlobalState';
 import { GlobalProvider } from './context/GlobalState';
 
 function App() {
